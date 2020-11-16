@@ -52,12 +52,11 @@ table {
     margin: 0 auto;
 }
 
-
-
 .container .navItems {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 85px 0px 27px 0px;
 }
 
 .container .navItems .navigation .wrapper {
@@ -67,8 +66,50 @@ table {
 .container .navItems .navigation .wrapper .items {
 	color: #000;
 	text-transform: uppercase;
-	font-size: 17px;
+	font-size: 20px;
 	text-decoration: none;
 	font-weight: 600;
 	margin-right: 62px;
+}
+
+.background {
+	padding: 40px 0px;
+	background-image: url("img/BlackLivesMatter.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background .container .photo {
+	width: 400px;
+	height: 517px;
+	margin-bottom: 20px;
+}
+
+.background .container .wrapper {
+	display: flex;
+}
+
+.background .container .wrapper .join {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #000;
+	cursor: pointer;
+	padding: 23px 41px;
+	border: none;
+	font-size: 35px;
+	font-weight: 600;
+} 
+
+.background .container .wrapper .donate {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #d10f0f;
+	cursor: pointer;
+	padding: 23px 41px;
+	border: none;
+	font-size: 35px;
+	margin-left: 12px;
+	font-weight: 600;
 }
