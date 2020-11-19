@@ -186,3 +186,39 @@ table {
 	font-weight: 600;
 	line-height: 27px;
 } 
+
+.bgc {
+	background-color: #f0f0f0;
+	padding-bottom: 70px;
+}
+
+.bgc .container .title {
+	color: #cccccc;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 78px;
+}
+.bgc .container .wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.bgc .container .wrapper .box .image{
+	height: 134px;
+	width: 134px;
+}
+
+.bgc .container .wrapper .box .text {
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 44px;
+}
+
+.bgc .container .wrapper .box{
+	text-align: center;
+	width: 33.33%;
+}
+
