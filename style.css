@@ -72,6 +72,9 @@ table {
 	margin-right: 62px;
 	font-size: 12px;
 }
+.container .navItems .navigation .wrapper .items:hover {
+	color: #e74650;
+}
 
 .background {
 	padding: 40px 0px;
@@ -102,6 +105,11 @@ table {
 	font-weight: 600;
 } 
 
+.background .container .wrapper .join:hover {
+	background-color: #2b689c;
+	transition: 0.5s;
+}
+
 .background .container .wrapper .donate {
 	display: block;
 	color: #fff;
@@ -115,6 +123,10 @@ table {
 	font-weight: 600;
 }
 
+.background .container .wrapper .donate:hover {
+	background-color: #2b689c;
+	transition: 0.5s;
+}
 
 .container .solution {
 	padding: 73px 0px 66px 0px;
@@ -160,6 +172,12 @@ table {
 	cursor: pointer;
 	font-size: 28px;
 } 
+
+.container .solution .download:hover {
+	color: #605e5e;
+	background-color: #ccc;
+	transition: 0.5s;
+}
 
  .about {
 	background-color: #128840;
