@@ -59,6 +59,28 @@ table {
 	padding: 85px 0px 27px 0px;
 }
 
+.container .navItems .title {
+	color: #000;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+
+.container .navItems .title .red{
+	position: relative;
+	left: 5px;
+	display: inline-block;
+	background-color: #e2202d;
+	width: 7px;
+	height: 29px;
+}
+
+.container .navItems .green{
+	color: #128840;
+}
+
 .container .navItems .navigation .wrapper {
 	display: flex;
 }
