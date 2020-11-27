@@ -150,6 +150,34 @@ table {
 	transition: 0.5s;
 }
 
+.latest{
+	background-color: #f0f0f0;
+	padding: 259px 0px 20px 0px;
+}
+
+.latest .container .title {
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 600;
+	font-size: 60px;
+	margin-bottom: 47px;
+}
+
+.latest .container .line {
+	display: block;
+	background-color: #e2202d;
+	width: 80px;
+	height: 3px;
+	margin-bottom: 59px;
+}
+
+.latest .container .text {
+	text-transform: uppercase;
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+}
+
 .container .solution {
 	padding: 73px 0px 66px 0px;
 }
