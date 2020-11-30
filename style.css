@@ -320,6 +320,69 @@ table {
 	transition: 0.5s;
 }
 
+.help{
+	display: flex;
+}
+
+.background-image{
+	background-image: url("img/help.png");
+	width: 50%;
+	height: 755px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.help .people {
+	padding: 85px 0px 70px 0px;
+	width: 50%;
+}
+.help .people .title{
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 74px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.help .people .food{
+	color: #128840;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.help .people .bronx{
+	text-align: center;
+	font-weight: 600;
+	color: #e2202d;
+	font-size: 27px;
+	margin-bottom: 50px;
+}
+
+.help .people .text{
+	margin-bottom: 47px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.help .people .support{
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #e2202d;
+	border: none;
+	font-size: 18px;
+	padding: 16px 20px;
+}
+
+.help .people .support:hover{
+	color: #605e5e;
+	transition: 0.5s;
+	background-color: #cccccc;
+}
+
 .back{
 	background-image: url("img/background.png");
 	background-repeat: no-repeat;
