@@ -98,6 +98,10 @@ table {
 	color: #e74650;
 }
 
+.container .navItems .image{
+	margin-right: 1px;
+}
+
 .background {
 	padding: 40px 0px;
 	background-image: url("img/BlackLivesMatter.jpg");
