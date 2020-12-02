@@ -182,6 +182,54 @@ table {
 	font-weight: 600;
 }
 
+.event{
+	margin-top: 18px;
+	background-color: #000;
+	padding: 105px 0px 115px 0px;
+}
+
+.event .container .wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.event .container .title {
+	color: #e2202d;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+
+.event .container .subtitle{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.event .container .text{
+	color: #108234;
+	font-size: 22px;
+	margin-top: 23px;
+}
+
+.event .container .calendar{
+	background-color: #e2202d;
+	color: #fff;
+	font-size: 18px;
+	padding: 16px 31px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+}
+.event .container .calendar:hover{
+	color: #605e5e;
+	background-color: #cccccc;
+	transition: 0.5s;
+}
+
 .container .solution {
 	padding: 73px 0px 66px 0px;
 }
