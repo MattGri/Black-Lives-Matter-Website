@@ -1,5 +1,6 @@
 *{
-    box-sizing: border-box;
+	box-sizing: border-box;
+	
 }
 
 html, body, div, span, applet, object, iframe,
@@ -156,7 +157,7 @@ table {
 
 .latest{
 	background-color: #f0f0f0;
-	padding: 259px 0px 20px 0px;
+	padding-bottom: 70px;
 }
 
 .latest .container .title {
@@ -180,6 +181,11 @@ table {
 	color: #000;
 	font-size: 22px;
 	font-weight: 600;
+	margin-bottom: 45px;
+}
+
+.latest .container .image{
+	margin-right: 30px;
 }
 
 .event{
@@ -433,6 +439,79 @@ table {
 	color: #605e5e;
 	transition: 0.5s;
 	background-color: #cccccc;
+}
+
+.demands{
+	background-color: #000;
+	padding-bottom: 85px;
+}
+
+.demands .container .title{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 60px;
+	font-weight: 600;
+	margin-bottom: 70px;
+}
+
+.demands .container .wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.demands .container .wrapper .box{
+	background-color: #2f2e2e;
+	width: 32%;
+	padding: 48px 51px 48px 58px;
+	height: 350px;
+}
+
+.demands .container .wrapper .box .title{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.demands .container .wrapper .box .line{
+	background-color: #128840;
+	display: block;
+	height: 3px;
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.demands .container .wrapper .box .text{
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+}
+
+.demands .container .wrapper .box .red{
+	color: #e2202d;
+}
+
+.demands .container .wrapper .bigger{
+	height: 406px;
+}
+
+.demands .container .wrapper .fourfive{
+	position: relative;
+	bottom: 55px;
+}
+
+.demands .container .wrapper .small{
+	height: 300px;
+}
+.demands .container .wrapper .seven{
+	position: relative;
+	bottom: 100px;
+}
+.demands .container .wrapper .nine{
+	position: relative;
+	bottom: 55px;
 }
 
 .back{
