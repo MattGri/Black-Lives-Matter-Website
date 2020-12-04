@@ -105,7 +105,7 @@ table {
 
 .background {
 	padding: 40px 0px;
-	background-image: url("img/BlackLivesMatter.jpg");
+	background-image: url("img/blacklives.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -148,6 +148,7 @@ table {
 	font-size: 35px;
 	margin-left: 12px;
 	font-weight: 600;
+	width: 17.4%;
 }
 
 .background .container .wrapper .donate:hover {
@@ -556,6 +557,120 @@ table {
 	width: 33.33%;
 }
 
+.form{
+	display: flex;
+
+}
+
+.form .contact{
+	width: 50%;
+	background-color: #e2202d;
+	padding: 148px 0px 158px 0px;
+}
+
+.form .contact .title{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 54px;
+}
+
+.form .contact .line{
+	display: block;
+	width: 80px;
+	height: 3px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.form .contact .subtitle{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	text-align: center;
+	margin: 57px 0px 15px 0px;
+}
+
+.form .contact .text{
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+}
+
+.form .tell{
+	width: 50%;
+	background-color: #128840;
+	padding: 148px 0px 127px 0px;
+}
+
+.form .tell .title{
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	font-size: 60px;
+	margin-bottom: 54px;
+}
+
+.form .tell .line{
+	display: block;
+	width: 80px;
+	height: 3px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	background-color: #fff;
+}
+
+.form .tell .wrapper{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.form .tell .wrapper .box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 6px;
+}
+
+.form .tell .wrapper .box .write{
+	height: 50%;
+	width: 265px;
+}
+
+.form .tell .wrapper .box .write::placeholder{
+	color:#c2a9ab;;
+}
+
+.form .tell .wrapper .area::placeholder{
+	color: #c2a9ab;
+}
+
+.form .tell .submit{
+	display: block;
+	color: #fff;
+	margin: 0 auto;
+	background-color: #000;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	padding: 11px 15px 13px 16px;
+}
+
+.form .tell .wrapper .box .write:hover{
+	background-color: #128840;
+	color: #b5a09f;
+	border: 1px solid #000;
+}
+
+.form .tell .wrapper .area:hover{
+	background-color: #128840;
+	color: #b5a09f;
+	border: 1px solid #000;
+}
 
 .copyright{
 	background-color: #000;
