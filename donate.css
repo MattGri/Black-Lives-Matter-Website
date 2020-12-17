@@ -1,0 +1,175 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Montserrat", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    width: 1285px;
+    margin: 0 auto;
+}
+
+.container .navItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 85px 0px 27px 0px;
+}
+
+.container .navItems .title {
+	color: #000;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+
+.container .navItems .title .red{
+	position: relative;
+	left: 5px;
+	display: inline-block;
+	background-color: #e2202d;
+	width: 7px;
+	height: 29px;
+}
+
+.container .navItems .green{
+	color: #128840;
+}
+
+.container .navItems .navigation .wrapper {
+	display: flex;
+}
+
+.container .navItems .navigation .wrapper .items {
+	color: #000;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	margin-right: 62px;
+	font-size: 12px;
+}
+.container .navItems .navigation .wrapper .items:hover {
+	color: #e74650;
+}
+
+.container .navItems .image{
+	margin-right: 1px;
+}
+
+.donate{
+    background-color: #000;
+    padding: 65px 0px 120px 0px;
+}
+
+.donate .container .donation{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #000;
+    background-color: #ffc439;
+    padding: 10px 27px 8px 27px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.donate .container .title{
+    margin-top: 61px;
+    text-transform: uppercase;
+    color: #e21c21;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.donate .container .text{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.donate .container .text2{
+    text-align: center;
+    color: #128840;
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+.donate .container .bold{
+    font-weight: 600;
+}
+
+.background{
+    background-image: url("/img/team.png");
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 755px;
+}
+
+.copyright{
+	background-color: #000;
+	padding: 72px 0px;
+}
+
+.copyright .container .title{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.copyright .container .wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.copyright .container .wrapper .items{
+	margin: 22px 16px 0px 0px;
+}
