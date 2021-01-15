@@ -1,4 +1,4 @@
-/* *{
+*{
 	box-sizing: border-box;
 }
 
@@ -106,8 +106,8 @@ table {
 	color: #e74650;
 }
 
-.navItems .container .navigation .wrapper .team{
-    color: #4da56f;
+.container .navItems .image{
+	margin-right: 1px;
 }
 
 .copyright{
