@@ -187,20 +187,23 @@ table {
 	.container{
 		width: 1100px;
 	}
+	.navItems .container .box{
+		margin: 0 auto;
+	}
+	.navItems .container .navigation{
+		display: none;
+	}
+	.navItems .container .image{
+		display: none;
+	}
 }
 
 @media(max-width: 1100px){
 	.container{
 		width: 900px;
 	}
-	.container .navItems .box{
+	.navItems .container .box{
 		margin: 0 auto;
-	}
-	.container .navItems .navigation{
-		display: none;
-	}
-	.container .navItems .image{
-		display: none;
 	}
 }
 
@@ -217,6 +220,19 @@ table {
 	}
 	.donate .container .text2{
 		font-size: 14px;
+	}
+}
+
+@media(max-width: 800px){
+	.navItems .container .box .title{
+		text-align: center;
+		letter-spacing: normal;
+	}
+}
+
+@media(max-width: 700px){
+	.navItems .container{
+		padding: 50px;
 	}
 }
 
