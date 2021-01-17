@@ -1,6 +1,5 @@
 *{
 	box-sizing: border-box;
-	
 }
 
 html, body, div, span, applet, object, iframe,
@@ -200,4 +199,109 @@ table {
 
 .copyright .container .wrapper .items{
 	margin: 22px 16px 0px 0px;
+}
+
+
+@media(max-width: 1300px){
+	.container{
+		width: 1100px;
+	}
+	.navItems .container .box{
+		margin: 0 auto;
+	}
+	.navItems .container .navigation{
+		display: none;
+	}
+	.navItems .container .image{
+		display: none;
+	}
+}
+
+@media(max-width: 1700px){
+	.container .merchandise .left{
+		margin-top: 80px;
+	}
+}
+
+@media(max-width: 1100px){
+	.container{
+		width: 900px;
+	}
+	.container .navItems .box{
+		margin: 0 auto;
+	}
+	.container .merchandise{
+		flex-wrap: wrap;
+	}
+	.container .merchandise .left{
+		width: 100%;
+	}
+	.container .merchandise .left .title{
+		text-align: center;
+	}
+	.container .merchandise .left .text2{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.container .merchandise .wrapper{
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.container .merchandise .wrapper .box .image{
+		width: 100%;
+	}
+	.container .merchandise .subtitle{
+		text-align: center;
+	}
+	.container .merchandise .text{
+		text-align: center;
+	}
+}
+
+@media(max-width: 900px){
+	.container{
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+
+@media(max-width: 800px){
+	.navItems .container .box .title{
+		text-align: center;
+		letter-spacing: normal;
+	}
+}
+
+@media(max-width: 700px){
+	.container .merchandise .left .title{
+		font-size: 40px;
+	}
+	.container .merchandise .left .text{
+		font-size: 30px;
+	}
+}
+
+@media(max-width: 700px){
+	.navItems .container{
+		padding: 50px;
+	}
+}
+
+@media(max-width: 400px){
+	.container .merchandise .left .title{
+		font-size: 30px;
+	}
+	.container .merchandise .left .text{
+		font-size: 20px;
+	}
+	.container .merchandise .left .text2{
+		font-size: 20px;
+	}
+}
+
+@media(max-width: 320px){
+	.container .merchandise .left .text{
+		font-size: 15px;
+		line-height: 30px;
+	}
 }
