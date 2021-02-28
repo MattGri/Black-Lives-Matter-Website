@@ -248,7 +248,7 @@ table {
 }
 
 .back{
-	background-image: url("img/background.png");
+	background-image: url("/assets/img/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 755px;

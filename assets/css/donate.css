@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	
 }
 
 html, body, div, span, applet, object, iframe,
@@ -56,7 +57,7 @@ table {
 	margin-top: 140px;
 }
 
-.navItems .container {
+.navItems .container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -67,7 +68,7 @@ table {
 	width: 100%;
 }
 
-.navItems .container .title {
+.navItems .container .box .title {
 	color: #000;
 	font-size: 34px;
 	text-transform: uppercase;
@@ -76,7 +77,7 @@ table {
 	letter-spacing: 3px;
 }
 
-.navItems .container .title .red{
+.navItems .container .box .title .red{
 	position: relative;
 	left: 5px;
 	display: inline-block;
@@ -85,7 +86,7 @@ table {
 	height: 29px;
 }
 
-.navItems .container .green{
+.navItems .container .box .green{
 	color: #128840;
 }
 
@@ -102,82 +103,62 @@ table {
 	margin-right: 62px;
 	font-size: 12px;
 }
-.navItems .container .navigation .wrapper .items:hover {
+.navItems .navigation .wrapper .items:hover {
 	color: #e74650;
 }
 
-.container .navItems .image{
+.navItems .container .navItems .image{
 	margin-right: 1px;
 }
 
-.container .merchandise{
-    padding-bottom: 60px;
-    display: flex;
+.donate{
+    background-color: #000;
+    padding: 65px 0px 120px 0px;
 }
 
-.container .merchandise .left{
-    width: 50%;
-}
-
-.container .merchandise .title{
-    text-transform: uppercase;
-    color: #ccc;
-    font-size: 60px;
-    font-weight: 600;
-    margin-bottom: 60px;
-}
-
-.container .merchandise .left .text{
-    color: #e63b47;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 50px;
-    line-height: 60px;
-}
-
-.container .merchandise .green{
-    color: #128840;
-}
-
-.container .merchandise .text2{
+.donate .container .donation{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
     color: #000;
-    font-size: 24px;
+    background-color: #ffc439;
+    padding: 10px 27px 8px 27px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.donate .container .title{
+    margin-top: 61px;
+    text-transform: uppercase;
+    color: #e21c21;
+    text-align: center;
+    font-size: 32px;
     font-weight: 600;
 }
 
-.container .merchandise .wrapper{
-    margin-top: 117px;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.donate .container .text{
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
 }
 
-.container .merchandise .wrapper .image{
-    margin-bottom: 24px;
-}
-
-.container .merchandise .wrapper .subtitle{
-    font-size: 25px;
-    margin-bottom: 28px;
-    font-weight: 600;
-}
-
-.container .merchandise .wrapper .text{
+.donate .container .text2{
+    text-align: center;
     color: #128840;
-    font-size: 22px;
-    margin-bottom: 35px;
+    font-size: 18px;
+    margin-top: 17px;
 }
 
-.container .merchandise .wrapper .margin{
-    margin: 0;
+.donate .container .bold{
+    font-weight: 600;
 }
 
 .background{
-	background-image: url("img/together.png");
-	background-repeat: no-repeat;
+    background-image: url("/assets/img/team.png");
+    background-repeat: no-repeat;
 	background-size: cover;
-    height: 755px;
-    margin-bottom: 25px;
+	height: 755px;
 }
 
 .copyright{
@@ -217,44 +198,12 @@ table {
 	}
 }
 
-@media(max-width: 1700px){
-	.container .merchandise .left{
-		margin-top: 80px;
-	}
-}
-
 @media(max-width: 1100px){
 	.container{
 		width: 900px;
 	}
-	.container .navItems .box{
+	.navItems .container .box{
 		margin: 0 auto;
-	}
-	.container .merchandise{
-		flex-wrap: wrap;
-	}
-	.container .merchandise .left{
-		width: 100%;
-	}
-	.container .merchandise .left .title{
-		text-align: center;
-	}
-	.container .merchandise .left .text2{
-		text-align: center;
-		margin-bottom: 50px;
-	}
-	.container .merchandise .wrapper{
-		flex-wrap: wrap;
-		margin: 0 auto;
-	}
-	.container .merchandise .wrapper .box .image{
-		width: 100%;
-	}
-	.container .merchandise .subtitle{
-		text-align: center;
-	}
-	.container .merchandise .text{
-		text-align: center;
 	}
 }
 
@@ -262,6 +211,15 @@ table {
 	.container{
 		width: 100%;
 		padding: 0 20px;
+	}
+	.donate .container .title{
+		font-size: 30px;
+	}
+	.donate .container .text{
+		font-size: 15px;
+	}
+	.donate .container .text2{
+		font-size: 14px;
 	}
 }
 
@@ -273,35 +231,19 @@ table {
 }
 
 @media(max-width: 700px){
-	.container .merchandise .left .title{
-		font-size: 40px;
-	}
-	.container .merchandise .left .text{
-		font-size: 30px;
-	}
-}
-
-@media(max-width: 700px){
 	.navItems .container{
 		padding: 50px;
 	}
 }
 
-@media(max-width: 400px){
-	.container .merchandise .left .title{
-		font-size: 30px;
-	}
-	.container .merchandise .left .text{
-		font-size: 20px;
-	}
-	.container .merchandise .left .text2{
+@media(max-width: 500px){
+	.donate .container .title{
 		font-size: 20px;
 	}
 }
 
 @media(max-width: 320px){
-	.container .merchandise .left .text{
-		font-size: 15px;
-		line-height: 30px;
+	.copyright .container .title{
+		font-size: 10px;
 	}
 }
