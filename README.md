@@ -1,6 +1,16 @@
-# Black Lives Matter Website
+# Project Overview  🎉
+Copy of a website written by myself
 
-Copy of a website using HTML and CSS (I wrote it with my code)
+# Technologies 🔧
+* HTML
 
-https://www.blacklivesmattergreaterny.com/
+* CSS
+
+# Issues 🔍
  
+ If you have any issues, please let me know on mateusz.grzybowski98@gmail.com
+
+# License 🔱
+
+All copyrights belongs to Black Lives Matter of Greater NY
+https://www.blacklivesmattergreaterny.com/
