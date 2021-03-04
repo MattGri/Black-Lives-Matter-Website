@@ -6,6 +6,8 @@ Copy of a website written by myself
 
 * CSS
 
+* JAVASCRIPT
+
 # Screenshots 📺
 ![image](https://user-images.githubusercontent.com/61913031/109642996-f225d600-7b53-11eb-9af0-f1f4984de4a1.png)
 ![image](https://user-images.githubusercontent.com/61913031/109643109-141f5880-7b54-11eb-9daa-ba8812f2b860.png)
